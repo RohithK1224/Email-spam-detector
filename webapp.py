@@ -49,7 +49,7 @@ def main():
 def about():
 	st.title("Built with StreamLit and Python 🐍")
 	st.write("This is a webapp used to check whether the mails are spam or not.")
-	st.write("Created by K Rohit Kannan 😊")
+	st.write("Created by Rohith 😊")
 
 radio =st.sidebar.selectbox("Select an option",["Home","About"]) 
 if radio=="Home":
